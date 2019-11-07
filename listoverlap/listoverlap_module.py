@@ -34,6 +34,8 @@ def main():
     #print(list_1)
     #print(list_2)
 
+    print("I've got the gift of one liners:", str(set(list_1)&set(list_2)))
+
     return
 
 
