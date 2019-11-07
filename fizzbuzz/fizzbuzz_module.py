@@ -6,14 +6,15 @@ def fizzbuzz(number):
     elif number % 5 == 0:
         return "Buzz"
     else:
-        return number          
+        return number
     return
 
 
 def main():
-    for i in range(1,101):
+    for i in range(1, 101):
         print(fizzbuzz(i))
     return
+
 
 if __name__ == '__main__':
     main()
