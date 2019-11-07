@@ -14,8 +14,13 @@ def years(age):
 def main():
     in1 = input("Name:")
     in2 = input("Age:")
+    in3 = input("Copies:")
     in2 = int(in2)
+    in3 = int(in3)
     print(years(in2))
+    for i in range(in3):
+        #print(years(in2))
+        print(years(in2), end = ' ')
     return
 
 
